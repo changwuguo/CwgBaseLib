@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CwgBaseLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CwgBaseLib.'
+  s.summary          = '这是一个简单的介绍'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,26 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+这是一个复杂的介绍，详细的信息可以写在这里
                        DESC
 
-  s.homepage         = 'https://github.com/changwuguo@qq.com/CwgBaseLib'
+  s.homepage         = 'https://github.com/changwuguo/CwgBaseLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'changwuguo@qq.com' => 'changwuguo@bytedance.com' }
-  s.source           = { :git => 'https://github.com/changwuguo@qq.com/CwgBaseLib.git', :tag => s.version.to_s }
+  s.author           = { 'changwuguo' => 'changwuguo@@qq.com' }
+  s.source           = { :git => 'https://github.com/changwuguo/CwgBaseLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'CwgBaseLib/Classes/**/*'
+  # s.source_files = 'CwgBaseLib/Classes/**/*'
+  s.vendored_frameworks = 'CwgBaseLib/Classes/*.framework'
   
   # s.resource_bundles = {
   #   'CwgBaseLib' => ['CwgBaseLib/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

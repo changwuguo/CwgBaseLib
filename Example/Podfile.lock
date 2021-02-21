@@ -1,0 +1,16 @@
+PODS:
+  - CwgBaseLib (0.1.0)
+
+DEPENDENCIES:
+  - CwgBaseLib (from `../`)
+
+EXTERNAL SOURCES:
+  CwgBaseLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CwgBaseLib: 7be51d4df61adea0bdf805c8695c1f12c6286fa4
+
+PODFILE CHECKSUM: c6c0d4da73a1fae3355774af61530721e238c08a
+
+COCOAPODS: 1.10.1

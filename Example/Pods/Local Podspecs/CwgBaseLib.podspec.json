@@ -1,0 +1,26 @@
+{
+  "name": "CwgBaseLib",
+  "version": "0.1.0",
+  "summary": "这是一个简单的介绍",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/changwuguo/CwgBaseLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "changwuguo": "changwuguo@@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/changwuguo/CwgBaseLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": "CwgBaseLib/Classes/*.framework",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}
