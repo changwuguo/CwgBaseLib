@@ -1,15 +1,42 @@
 PODS:
-  - CwgBaseLib (0.1.0)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CwgBaseLib (0.3.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - CwgBaseLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   CwgBaseLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CwgBaseLib: 7be51d4df61adea0bdf805c8695c1f12c6286fa4
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  CwgBaseLib: 59ac11b9b70c9a970f8732ec86da0baa4593449a
 
 PODFILE CHECKSUM: c6c0d4da73a1fae3355774af61530721e238c08a
 
