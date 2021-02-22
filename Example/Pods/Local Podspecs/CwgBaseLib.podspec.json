@@ -28,6 +28,9 @@
   "dependencies": {
     "AFNetworking": [
       "~> 2.3"
+    ],
+    "MJExtension": [
+
     ]
   },
   "user_target_xcconfig": {

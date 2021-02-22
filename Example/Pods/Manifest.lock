@@ -22,6 +22,8 @@ PODS:
     - AFNetworking/NSURLSession
   - CwgBaseLib (0.3.0):
     - AFNetworking (~> 2.3)
+    - MJExtension
+  - MJExtension (3.2.4)
 
 DEPENDENCIES:
   - CwgBaseLib (from `../`)
@@ -29,6 +31,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - MJExtension
 
 EXTERNAL SOURCES:
   CwgBaseLib:
@@ -36,7 +39,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  CwgBaseLib: 59ac11b9b70c9a970f8732ec86da0baa4593449a
+  CwgBaseLib: 1ed69df6152a0abadc779cc38835e6d8ff89a38e
+  MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
 
 PODFILE CHECKSUM: c6c0d4da73a1fae3355774af61530721e238c08a
 
