@@ -325,14 +325,20 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CwgBaseLib_Example/Pods-CwgBaseLib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaSecurity/CocoaSecurity.framework",
 				"${BUILT_PRODUCTS_DIR}/CwgBaseLib/CwgBaseLib.framework",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${PODS_ROOT}/RKBluetoothLEKit/RKBluetoothLEKit/RKBluetoothLE_iOS.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaSecurity.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CwgBaseLib.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RKBluetoothLE_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
