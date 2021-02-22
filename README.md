@@ -1,6 +1,6 @@
 # CwgBaseLib
 
-[![CI Status](https://img.shields.io/travis/changwuguo@qq.com/CwgBaseLib.svg?style=flat)](https://travis-ci.org/changwuguo@qq.com/CwgBaseLib)
+[![CI Status](https://img.shields.io/travis/changwuguoCwgBaseLib.svg?style=flat)](https://travis-ci.org/changwuguo/CwgBaseLib)
 [![Version](https://img.shields.io/cocoapods/v/CwgBaseLib.svg?style=flat)](https://cocoapods.org/pods/CwgBaseLib)
 [![License](https://img.shields.io/cocoapods/l/CwgBaseLib.svg?style=flat)](https://cocoapods.org/pods/CwgBaseLib)
 [![Platform](https://img.shields.io/cocoapods/p/CwgBaseLib.svg?style=flat)](https://cocoapods.org/pods/CwgBaseLib)
@@ -22,7 +22,7 @@ pod 'CwgBaseLib'
 
 ## Author
 
-changwuguo@qq.com, changwuguo@bytedance.com
+changwuguo@qq.com
 
 ## License
 
