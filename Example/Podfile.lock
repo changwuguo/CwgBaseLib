@@ -1,5 +1,5 @@
 PODS:
-  - CwgBaseLib (0.24.0):
+  - CwgBaseLib (0.25.0):
     - Masonry
     - MJExtension
     - MLLabel
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CwgBaseLib: 850db372900b61a934a2faf1ce8e1b57f574203c
+  CwgBaseLib: 5e626f13d0d4d5fb45aabeed02e604ff08a27721
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
   MLLabel: d76124055a2205e7f76878e62cd06ba925ba0c97
