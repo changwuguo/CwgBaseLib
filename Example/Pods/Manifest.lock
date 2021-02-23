@@ -1,26 +1,28 @@
 PODS:
-  - CwgBaseLib (0.13.0):
-    - JhtMarquee
+  - CwgBaseLib (0.14.0):
     - Masonry
-  - JhtMarquee (1.0.6)
+    - SDWebImage
   - Masonry (1.1.0)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
 
 DEPENDENCIES:
   - CwgBaseLib (from `../`)
 
 SPEC REPOS:
   trunk:
-    - JhtMarquee
     - Masonry
+    - SDWebImage
 
 EXTERNAL SOURCES:
   CwgBaseLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CwgBaseLib: 2292606e6d2d78df7209b09043e32d31d75729b3
-  JhtMarquee: 38eb0ceb3d515092e77a88b9005e2179c7cd1b2d
+  CwgBaseLib: db3110813daf7acb2406e1124f02f1e5455dd029
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
 
 PODFILE CHECKSUM: c6c0d4da73a1fae3355774af61530721e238c08a
 
