@@ -7,6 +7,7 @@
 
 #import "CwgNetworkingTool.h"
 #import <AFNetworking/AFNetworking.h>
+#import <JhtMarquee/JhtVerticalMarquee.h>
 
 @interface CwgNetworkingTool ()
 
@@ -15,6 +16,17 @@
 @end
 
 @implementation CwgNetworkingTool
+
+- (void)createTextCycle
+{
+    JhtVerticalMarquee *verticalTextCycle = [JhtVerticalMarquee new];
+    verticalTextCycle.numberOfLines = 1;
+    verticalTextCycle.scrollDelay = 5.0f;
+    verticalTextCycle.scrollDuration = 1.0f;
+    verticalTextCycle.textColor = [UIColor blackColor];
+    verticalTextCycle.textAlignment = NSTextAlignmentLeft;
+    verticalTextCycle.textFont = [UIFont systemFontOfSize: 12.0f];
+}
 
 - (NSURLSessionDataTask *)POSTWithURLString:(NSString *)URLString parameters:(id)parameters success:(void (^)(id responseObject))success failure:(void (^)(id error))failure
 {
