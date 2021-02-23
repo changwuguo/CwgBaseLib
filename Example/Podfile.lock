@@ -1,22 +1,30 @@
 PODS:
-  - CwgBaseLib (0.19.0):
+  - CwgBaseLib (0.20.0):
+    - JhtMarquee
     - Masonry
+    - MLLabel
+  - JhtMarquee (1.0.6)
   - Masonry (1.1.0)
+  - MLLabel (1.10.5)
 
 DEPENDENCIES:
   - CwgBaseLib (from `../`)
 
 SPEC REPOS:
   trunk:
+    - JhtMarquee
     - Masonry
+    - MLLabel
 
 EXTERNAL SOURCES:
   CwgBaseLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CwgBaseLib: 4aca0abb96ba726f164c22d52e6849d3ffff5cb3
+  CwgBaseLib: 812aba66b511b100de9c9f90cba27935fb06000e
+  JhtMarquee: 38eb0ceb3d515092e77a88b9005e2179c7cd1b2d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MLLabel: d76124055a2205e7f76878e62cd06ba925ba0c97
 
 PODFILE CHECKSUM: c6c0d4da73a1fae3355774af61530721e238c08a
 
