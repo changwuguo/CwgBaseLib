@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CwgBaseView.h"
 #import "CwgNetworkingTool.h"
 
 FOUNDATION_EXPORT double CwgBaseLibVersionNumber;

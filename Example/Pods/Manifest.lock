@@ -21,7 +21,9 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - CwgBaseLib (0.8.0):
-    - AFNetworking
+    - AFNetworking (~> 2.3)
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - CwgBaseLib (from `../`)
@@ -29,6 +31,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - Masonry
 
 EXTERNAL SOURCES:
   CwgBaseLib:
@@ -36,7 +39,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  CwgBaseLib: b87c7662dfd0aa15ed67d7c6d60f82d28946b802
+  CwgBaseLib: d816410d6b4f1fc9f5c4c8150c661638d9d350c8
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: c6c0d4da73a1fae3355774af61530721e238c08a
 

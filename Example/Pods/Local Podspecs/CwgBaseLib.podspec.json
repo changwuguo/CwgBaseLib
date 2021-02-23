@@ -26,8 +26,11 @@
     "Foundation"
   ],
   "dependencies": {
-    "AFNetworking": [
+    "Masonry": [
 
+    ],
+    "AFNetworking": [
+      "~> 2.3"
     ]
   },
   "user_target_xcconfig": {
