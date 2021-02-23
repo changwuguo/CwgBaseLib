@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CwgBaseLib'
-  s.version          = '0.23.0'
+  s.version          = '0.24.0'
   s.summary          = '这是一个简单的介绍'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,8 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'CwgBaseLib/Classes/**/*'
+  s.source_files = 'CwgBaseLib/Classes/**/*.{h,m}'
+  s.vendored_frameworks = 'CwgBaseLib/Classes/**/*.framework'
   
   # s.resource_bundles = {
   #   'CwgBaseLib' => ['CwgBaseLib/Assets/*.png']
@@ -42,7 +43,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'MLLabel'
   s.dependency 'Masonry'
-  s.dependency 'JhtMarquee'
+  #s.dependency 'JhtMarquee'
   s.dependency 'MJExtension'
   s.dependency 'SDWebImage'
 

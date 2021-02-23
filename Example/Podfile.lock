@@ -1,11 +1,9 @@
 PODS:
-  - CwgBaseLib (0.23.0):
-    - JhtMarquee
+  - CwgBaseLib (0.24.0):
     - Masonry
     - MJExtension
     - MLLabel
     - SDWebImage
-  - JhtMarquee (1.0.6)
   - Masonry (1.1.0)
   - MJExtension (3.2.4)
   - MLLabel (1.10.5)
@@ -18,7 +16,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - JhtMarquee
     - Masonry
     - MJExtension
     - MLLabel
@@ -29,8 +26,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CwgBaseLib: 4b6e38769904add888e6f491819201d87467a681
-  JhtMarquee: 38eb0ceb3d515092e77a88b9005e2179c7cd1b2d
+  CwgBaseLib: 21973f35851943a4b46d514d0d786cc470b8d041
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
   MLLabel: d76124055a2205e7f76878e62cd06ba925ba0c97

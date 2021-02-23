@@ -11,6 +11,10 @@
 #endif
 
 #import "CwgBaseView.h"
+#import "JhtHorizontalMarquee.h"
+#import "JhtHorizontalMarquee_Define.h"
+#import "JhtVerticalMarquee.h"
+#import "JhtVerticalMarquee_Define.h"
 
 FOUNDATION_EXPORT double CwgBaseLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char CwgBaseLibVersionString[];

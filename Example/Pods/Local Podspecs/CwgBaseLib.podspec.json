@@ -1,6 +1,6 @@
 {
   "name": "CwgBaseLib",
-  "version": "0.23.0",
+  "version": "0.24.0",
   "summary": "这是一个简单的介绍",
   "description": "这是一个复杂的介绍，详细的信息可以写在这里",
   "homepage": "https://github.com/changwuguo/CwgBaseLib",
@@ -13,13 +13,14 @@
   },
   "source": {
     "git": "https://github.com/changwuguo/CwgBaseLib.git",
-    "tag": "0.23.0"
+    "tag": "0.24.0"
   },
   "static_framework": true,
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "CwgBaseLib/Classes/**/*",
+  "source_files": "CwgBaseLib/Classes/**/*.{h,m}",
+  "vendored_frameworks": "CwgBaseLib/Classes/**/*.framework",
   "public_header_files": "CwgBaseLib/Classes/**/*.h",
   "frameworks": [
     "UIKit",
@@ -31,9 +32,6 @@
 
     ],
     "Masonry": [
-
-    ],
-    "JhtMarquee": [
 
     ],
     "MJExtension": [
