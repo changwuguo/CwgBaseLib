@@ -20,16 +20,10 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - CocoaSecurity (1.2.4)
-  - CwgBaseLib (0.5.0):
+  - CwgBaseLib (0.7.0):
     - AFNetworking (~> 2.3)
     - MJExtension
-    - RKBluetoothLEKit
   - MJExtension (3.2.4)
-  - ReactiveObjC (3.0.0)
-  - RKBluetoothLEKit (4.0.0):
-    - CocoaSecurity (~> 1.2.4)
-    - ReactiveObjC (~> 3.0.0)
 
 DEPENDENCIES:
   - CwgBaseLib (from `../`)
@@ -37,10 +31,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
-    - CocoaSecurity
     - MJExtension
-    - ReactiveObjC
-    - RKBluetoothLEKit
 
 EXTERNAL SOURCES:
   CwgBaseLib:
@@ -48,11 +39,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
-  CwgBaseLib: d8e5148133c3cda0d950130874a86fffc7eac261
+  CwgBaseLib: fdc12ac98829dabfdeeb0c5f07c82d479c27b4b6
   MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
-  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
-  RKBluetoothLEKit: ee273ee1e276008f68879bf7e549f1f719331e31
 
 PODFILE CHECKSUM: c6c0d4da73a1fae3355774af61530721e238c08a
 
