@@ -1,6 +1,6 @@
 {
   "name": "CwgBaseLib",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "summary": "这是一个简单的介绍",
   "description": "这是一个复杂的介绍，详细的信息可以写在这里",
   "homepage": "https://github.com/changwuguo/CwgBaseLib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/changwuguo/CwgBaseLib.git",
-    "tag": "0.11.0"
+    "tag": "0.12.0"
   },
   "static_framework": true,
   "platforms": {
@@ -27,6 +27,12 @@
   ],
   "dependencies": {
     "Masonry": [
+
+    ],
+    "JhtMarquee": [
+
+    ],
+    "SDWebImage": [
 
     ]
   },
