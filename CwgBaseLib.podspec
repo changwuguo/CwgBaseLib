@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CwgBaseLib'
-  s.version          = '0.18.0'
+  s.version          = '0.19.0'
   s.summary          = '这是一个简单的介绍'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'CwgBaseLib/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
 
-  s.dependency 'MLLabel'
+  # s.dependency 'MLLabel'
   s.dependency 'Masonry'
   # s.dependency 'JhtMarquee'
 
