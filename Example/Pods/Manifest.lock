@@ -1,8 +1,10 @@
 PODS:
-  - CwgBaseLib (0.14.0):
+  - CwgBaseLib (0.15.0):
     - Masonry
-    - SDWebImage
+    - SDCycleScrollView
   - Masonry (1.1.0)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
   - SDWebImage (5.10.4):
     - SDWebImage/Core (= 5.10.4)
   - SDWebImage/Core (5.10.4)
@@ -13,6 +15,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Masonry
+    - SDCycleScrollView
     - SDWebImage
 
 EXTERNAL SOURCES:
@@ -20,8 +23,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CwgBaseLib: db3110813daf7acb2406e1124f02f1e5455dd029
+  CwgBaseLib: f41c11d3f13de51d9ed46fd7b16e3078a21e602c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
 
 PODFILE CHECKSUM: c6c0d4da73a1fae3355774af61530721e238c08a
