@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'CwgBaseLib/Classes/**/*.{h,m}'
-  s.vendored_frameworks = 'CwgBaseLib/Classes/**/*.framework'
+  s.vendored_frameworks = 'JhtMarquee.framework'
   
   # s.resource_bundles = {
   #   'CwgBaseLib' => ['CwgBaseLib/Assets/*.png']

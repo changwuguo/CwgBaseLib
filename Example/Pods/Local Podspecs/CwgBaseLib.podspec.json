@@ -20,7 +20,7 @@
     "ios": "9.0"
   },
   "source_files": "CwgBaseLib/Classes/**/*.{h,m}",
-  "vendored_frameworks": "CwgBaseLib/Classes/**/*.framework",
+  "vendored_frameworks": "JhtMarquee.framework",
   "public_header_files": "CwgBaseLib/Classes/**/*.h",
   "frameworks": [
     "UIKit",
