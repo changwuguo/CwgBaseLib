@@ -7,6 +7,7 @@
 //
 
 #import "CWGViewController.h"
+#import <CwgBaseLib/CwgBaseView.h>
 
 @interface CWGViewController ()
 
@@ -17,13 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    CwgBaseView *view = [CwgBaseView new];
+    view.backgroundColor = [UIColor redColor];
+    view.frame = CGRectMake(100, 100, 150, 150);
+    [self.view addSubview: view];
+
+    [view createBaseView];
 }
 
 @end

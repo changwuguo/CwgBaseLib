@@ -8,14 +8,23 @@
 #import "CwgBaseView.h"
 #import <Masonry/Masonry.h>
 
+@interface CwgBaseView ()
+
+@property (nonatomic, strong) UIView *aView;
+
+@end
+
 @implementation CwgBaseView
 
 - (void)createBaseView
 {
-    UIView *aView = [UIView new];
-    [self addSubview: aView];
-    [aView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.bottom.right.mas_equalTo(self);
+    self.aView = [UIView new];
+    self.aView.backgroundColor = [UIColor greenColor];
+    [self addSubview: self.aView];
+    
+    [self.aView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.mas_equalTo(self);
+        make.size.mas_equalTo(CGSizeMake(80, 80));
     }];
 }
 

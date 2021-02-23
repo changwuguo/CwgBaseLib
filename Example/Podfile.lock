@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - CwgBaseLib (0.8.0):
+  - CwgBaseLib (0.10.0):
     - AFNetworking (~> 2.3)
     - Masonry
   - Masonry (1.1.0)
@@ -39,7 +39,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  CwgBaseLib: d816410d6b4f1fc9f5c4c8150c661638d9d350c8
+  CwgBaseLib: bc3e1326be2ba6d640f293c241481a9a2801c5ed
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: c6c0d4da73a1fae3355774af61530721e238c08a
