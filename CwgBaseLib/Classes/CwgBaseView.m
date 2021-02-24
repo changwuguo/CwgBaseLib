@@ -8,7 +8,7 @@
 #import "CwgBaseView.h"
 #import <Masonry/Masonry.h>
 #import <MLLabel/MLLabel.h>
-#import <JhtMarquee/JhtVerticalMarquee.h>
+//#import <JhtMarquee/JhtVerticalMarquee.h>
 #import <SDWebImage/UIImageView+WebCache.h>
 
 @interface CwgBaseView ()
@@ -45,13 +45,13 @@
         make.center.mas_equalTo(self);
     }];
 
-    JhtVerticalMarquee *verticalTextCycle = [JhtVerticalMarquee new];
-    verticalTextCycle.numberOfLines = 1;
-    verticalTextCycle.scrollDelay = 5.0f;
-    verticalTextCycle.scrollDuration = 1.0f;
-    verticalTextCycle.textColor = [UIColor blackColor];
-    verticalTextCycle.textAlignment = NSTextAlignmentLeft;
-    verticalTextCycle.textFont = [UIFont systemFontOfSize: 12.0f];
+//    JhtVerticalMarquee *verticalTextCycle = [JhtVerticalMarquee new];
+//    verticalTextCycle.numberOfLines = 1;
+//    verticalTextCycle.scrollDelay = 5.0f;
+//    verticalTextCycle.scrollDuration = 1.0f;
+//    verticalTextCycle.textColor = [UIColor blackColor];
+//    verticalTextCycle.textAlignment = NSTextAlignmentLeft;
+//    verticalTextCycle.textFont = [UIFont systemFontOfSize: 12.0f];
 }
 
 @end
