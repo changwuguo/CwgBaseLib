@@ -20,7 +20,7 @@
     "ios": "9.0"
   },
   "source_files": "CwgBaseLib/Classes/**/*.{h,m}",
-  "vendored_frameworks": "JhtMarquee.framework",
+  "vendored_frameworks": "JhtMarquee/*.framework",
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
   },

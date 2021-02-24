@@ -378,7 +378,6 @@
 		3688C478F5600111D427742889F58053 /* Pods-CwgBaseLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CwgBaseLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		3725773B771139087B1C6703378B050D /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
 		38BE384A4D95A51D0D78A465DD6E1CF5 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		3981AC7DD5BD51682119F0A2E3B02156 /* JhtMarquee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JhtMarquee.framework; sourceTree = "<group>"; };
 		39E13B289615F89FAE13F96308063086 /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/Core/SDImageCachesManager.h; sourceTree = "<group>"; };
 		39E6A7A8C9D5B2F53D71C429FF7B43CD /* SDImageGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGraphics.m; path = SDWebImage/Core/SDImageGraphics.m; sourceTree = "<group>"; };
 		39FAC2219DD31C620BDD9FE95F421297 /* SDImageHEICCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageHEICCoder.m; path = SDWebImage/Core/SDImageHEICCoder.m; sourceTree = "<group>"; };
@@ -462,6 +461,7 @@
 		84A95A86831EE4C083A6FA4458BC8E7A /* CwgBaseLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CwgBaseLib.debug.xcconfig; sourceTree = "<group>"; };
 		854510CA7F6F1759C66812C75448FC13 /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
 		862EAEDF490991C409AC5A756E7A6179 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		86744D99151ED9980DF1B1D7C135BABB /* JhtMarquee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JhtMarquee.framework; path = JhtMarquee/JhtMarquee.framework; sourceTree = "<group>"; };
 		8682106CD21F90B350E41055BB661F94 /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
 		869D68B05755774F92FA7459378C8838 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/Core/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
 		86D2E97D1E9B95C2A33DD99CE8A1026D /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/Core/SDWebImageTransition.h; sourceTree = "<group>"; };
@@ -721,6 +721,14 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
+		2E7FD3D15B43CEC29F519EB36DB19FB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86744D99151ED9980DF1B1D7C135BABB /* JhtMarquee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		489EC63224421CB861274C0883F75FE8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -793,14 +801,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SDWebImage";
-			sourceTree = "<group>";
-		};
-		85DB6C423337249036DEA178F3C08BB9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3981AC7DD5BD51682119F0A2E3B02156 /* JhtMarquee.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		93A7359789DFBD240223D9541DA8714E /* Targets Support Files */ = {
@@ -966,7 +966,7 @@
 			children = (
 				26596C114BA4FEBE61D632AC5BAFD8FC /* CwgBaseView.h */,
 				EB0622A89699DAEC2CD657F56E9B10DA /* CwgBaseView.m */,
-				85DB6C423337249036DEA178F3C08BB9 /* Frameworks */,
+				2E7FD3D15B43CEC29F519EB36DB19FB7 /* Frameworks */,
 				0698153227FD943132E17D85695B9888 /* Pod */,
 				031FD7566A1780A2EFDEEE5CDA766E38 /* Support Files */,
 			);
