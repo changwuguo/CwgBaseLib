@@ -1,26 +1,15 @@
 PODS:
-  - CwgBaseLib (0.32.0):
-    - Masonry
-    - MLLabel
-  - Masonry (1.1.0)
-  - MLLabel (1.10.5)
+  - CwgBaseLib (0.33.0)
 
 DEPENDENCIES:
   - CwgBaseLib (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - Masonry
-    - MLLabel
 
 EXTERNAL SOURCES:
   CwgBaseLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CwgBaseLib: 89fdb2427d7645028e72504da1bbb8d7906ea0c9
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MLLabel: d76124055a2205e7f76878e62cd06ba925ba0c97
+  CwgBaseLib: 93080de1ecdc2cbacd510ccef2b30f272157dc31
 
 PODFILE CHECKSUM: c6c0d4da73a1fae3355774af61530721e238c08a
 
