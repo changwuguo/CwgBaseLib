@@ -24,9 +24,9 @@
         make.center.mas_equalTo(self);
         make.size.mas_equalTo(CGSizeMake(190, 190));
     }];
-    
-    PictureView *pictureView = [[[NSBundle mainBundle] loadNibNamed: @"PictureView" owner: self options: nil] lastObject];
-    NSLog(@"pictureView = %@", pictureView);
+
+    NSBundle *currentBundle = [NSBundle bundleForClass: [PictureView class]];
+    PictureView *pictureView = [[currentBundle loadNibNamed: @"PictureView" owner: self options: nil] lastObject];
     pictureView.imageView.image = [UIImage imageNamed: @"1.jpeg"];
     [self addSubview: pictureView];
     [pictureView mas_makeConstraints:^(MASConstraintMaker *make) {

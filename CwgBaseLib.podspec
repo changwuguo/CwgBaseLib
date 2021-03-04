@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CwgBaseLib'
-  s.version          = '0.37.0'
+  s.version          = '0.38.0'
   s.summary          = '这是一个简单的介绍'
 
 # This description is used to generate tags and improve search results.
