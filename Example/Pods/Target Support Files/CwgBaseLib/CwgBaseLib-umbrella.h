@@ -11,6 +11,7 @@
 #endif
 
 #import "CwgBaseView.h"
+#import "PictureView.h"
 
 FOUNDATION_EXPORT double CwgBaseLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char CwgBaseLibVersionString[];

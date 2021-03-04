@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CwgBaseLib'
-  s.version          = '0.35.0'
+  s.version          = '0.36.0'
   s.summary          = '这是一个简单的介绍'
 
 # This description is used to generate tags and improve search results.
@@ -40,9 +40,11 @@ Pod::Spec.new do |s|
   # s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
   s.public_header_files = 'CwgBaseLib/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
+  s.resources = 'CwgBaseLib/Assets/**/*'
 
   s.dependency 'MLLabel'
   s.dependency 'Masonry'
+  s.dependency 'SDWebImage'
 
   # s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -all_load', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }

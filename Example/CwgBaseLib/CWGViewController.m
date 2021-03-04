@@ -6,6 +6,7 @@
 //  Copyright (c) 2021 changwuguo@qq.com. All rights reserved.
 //
 
+#import <Masonry/Masonry.h>
 #import "CWGViewController.h"
 #import <CwgBaseLib/CwgBaseView.h>
 
@@ -21,10 +22,12 @@
 
     CwgBaseView *view = [CwgBaseView new];
     view.backgroundColor = [UIColor redColor];
-    view.frame = CGRectMake(100, 100, 150, 150);
-    [self.view addSubview: view];
-
     [view createBaseView];
+    [self.view addSubview: view];
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.mas_equalTo(self.view);
+        make.size.mas_equalTo(CGSizeMake(200, 200));
+    }];
 }
 
 @end
