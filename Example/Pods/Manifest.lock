@@ -1,5 +1,5 @@
 PODS:
-  - CwgBaseLib (0.37.0):
+  - CwgBaseLib (0.39.0):
     - Masonry
   - Masonry (1.1.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CwgBaseLib: 1e2dd8cc13e0edd6237430ca7d3dafeb54be08ad
+  CwgBaseLib: e0823facaadd93a7c157676109011d89f94b82cb
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: c6c0d4da73a1fae3355774af61530721e238c08a

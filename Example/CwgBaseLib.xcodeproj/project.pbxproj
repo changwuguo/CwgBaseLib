@@ -308,13 +308,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CwgBaseLib_Example/Pods-CwgBaseLib_Example-resources.sh",
-				"${PODS_ROOT}/../../CwgBaseLib/Assets/1.jpeg",
-				"${BUILT_PRODUCTS_DIR}/CwgBaseLib/CwgBaseLib.framework/PictureView.nib",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CwgBaseLib/CwgBaseLib.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/1.jpeg",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PictureView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CwgBaseLib.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

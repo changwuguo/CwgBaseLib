@@ -25,9 +25,10 @@
         make.size.mas_equalTo(CGSizeMake(190, 190));
     }];
 
-    NSBundle *currentBundle = [NSBundle bundleForClass: [PictureView class]];
-    PictureView *pictureView = [[currentBundle loadNibNamed: @"PictureView" owner: self options: nil] lastObject];
-    pictureView.imageView.image = [UIImage imageNamed: @"1.jpeg"];
+    NSURL *url = [[NSBundle mainBundle] URLForResource: @"CwgBaseLib" withExtension:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithURL: url];
+    PictureView *pictureView = [[bundle loadNibNamed: @"PictureView" owner: self options: nil] lastObject];
+    pictureView.imageView.image = [UIImage imageNamed: @"1.jpeg" inBundle: bundle compatibleWithTraitCollection: nil];
     [self addSubview: pictureView];
     [pictureView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.mas_equalTo(aView);

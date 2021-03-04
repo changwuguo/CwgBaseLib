@@ -97,12 +97,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../../CwgBaseLib/Assets/1.jpeg"
-  install_resource "${BUILT_PRODUCTS_DIR}/CwgBaseLib/CwgBaseLib.framework/PictureView.nib"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/CwgBaseLib/CwgBaseLib.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../../CwgBaseLib/Assets/1.jpeg"
-  install_resource "${BUILT_PRODUCTS_DIR}/CwgBaseLib/CwgBaseLib.framework/PictureView.nib"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/CwgBaseLib/CwgBaseLib.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
